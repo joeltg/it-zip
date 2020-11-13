@@ -1,0 +1,20 @@
+{
+	"name": "ziterable",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/joeltg/ziterable.git"
+	},
+	"author": "Joel Gustafson",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/joeltg/ziterable/issues"
+	},
+	"homepage": "https://github.com/joeltg/ziterable#readme"
+}
