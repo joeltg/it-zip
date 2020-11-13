@@ -6,7 +6,7 @@
 npm i ziterable
 ```
 
-`ziterable` default exports a function `zip` that takes as many Iterables as you want to pass it, and it returns an iterable of tuples that are typed like you'd hope. The iterable that it returns will terminate when the **first** of its child iterables terminates, and it also gives you the integer index as the last tuple element.
+`ziterable` default exports a function `zip` that takes as many Iterables as you want to pass it, and it returns an iterable of tuples that are typed like you'd hope. The iterable that `zip` returns yields iterators that terminate when the **first** of its component iterators terminates.
 
 For example, if you pass `zip` three arguments of type `Iterable<string>`, `Iterable<number>`, and `Iterable<boolean>`, it will return an iterable of type `Iterable<[string, number, boolean, number]>`. The last tuple slot is the iteration index.
 
