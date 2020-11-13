@@ -2,6 +2,10 @@
 
 > Generic, variadic, iterable zip
 
+```
+npm i ziterable
+```
+
 `ziterable` default exports a function `zip` that takes as many Iterables as you want to pass it, and it returns an iterable of tuples that are typed like you'd hope. The iterable that it returns will terminate when the **first** of its child iterables terminates, and it also gives you the integer index as the last tuple element.
 
 For example, if you pass `zip` three arguments of type `Iterable<string>`, `Iterable<number>`, and `Iterable<boolean>`, it will return an iterable of type `Iterable<[string, number, boolean, number]>`. The last tuple slot is the iteration index.
@@ -21,3 +25,5 @@ for (const [a, b, c, i] of zip(A, B, C)) {
   print(a, b, c)
 }
 ```
+
+The source code is 25 lines and has no dependencies.
