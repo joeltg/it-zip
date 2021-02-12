@@ -1,5 +1,6 @@
 {
 	"compilerOptions": {
+		"outDir": "lib",
 		"strict": true,
 		"module": "ES6",
 		"target": "ES2020",
