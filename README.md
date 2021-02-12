@@ -26,4 +26,4 @@ for (const [a, b, c, i] of zip(A, B, C)) {
 }
 ```
 
-The source code is 25 lines and has no dependencies.
+The source code is 25 lines and has no dependencies. You need TypeScript 4.0+ and `downlevelIteration` must be enabled if your target is ES5 or earlier.
