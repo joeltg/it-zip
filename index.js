@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const zip = (...args) => ({
     [Symbol.iterator]() {
         const iterators = args.map((arg) => arg[Symbol.iterator]());
@@ -18,4 +16,4 @@ const zip = (...args) => ({
         };
     },
 });
-exports.default = zip;
+export default zip;
