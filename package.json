@@ -1,6 +1,6 @@
 {
 	"name": "ziterable",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"type": "module",
 	"description": "Generic, variadic, iterable zip",
 	"main": "lib/index.js",
