@@ -4,7 +4,7 @@
 
 Generic, variadic, iterable zip.
 
-Sometimes you want to iterate over several ES6 Iterables at once, but writing your own `zip` function can be annoying and it's hard to get it to work with TypeScript well. `ziterable` is a funy package that does exactly this so that you don't have to think about it.
+Sometimes you want to iterate over several ES6 Iterables at once, but writing your own `zip` function can be annoying and it's hard to get it to work with TypeScript well. `ziterable` is a tiny package that does exactly this so that you don't have to think about it.
 
 The source code is 25 lines of code and the package has no dependencies. You need TypeScript 4.0+ and `downlevelIteration` must be enabled if your target is ES5 or earlier.
 
