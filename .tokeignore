@@ -1,6 +1,0 @@
-.gitignore
-README.md
-LICENSE
-package.json
-package-lock.json
-tsconfig.json
