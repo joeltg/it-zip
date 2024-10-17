@@ -1,4 +1,4 @@
-# ziterable
+# it-zip
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme) [![license](https://img.shields.io/github/license/joeltg/it-zip)](https://opensource.org/licenses/MIT) [![NPM version](https://img.shields.io/npm/v/it-zip)](https://www.npmjs.com/package/it-zip) ![TypeScript types](https://img.shields.io/npm/types/it-zip)
 
@@ -18,7 +18,7 @@ The source code is 25 lines of code and the package has no dependencies. You nee
 ## Install
 
 ```
-npm i ziterable
+npm i it-zip
 ```
 
 ## Usage
